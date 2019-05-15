@@ -8,9 +8,12 @@ Thumbnails are generated via AWS Lambda and stored into another bucket
 Inside backend create a file called .env
 In that file include:
 
-AWSAccessKeyId=???
+AWSAccessKeyId=??? 
+<br/>
 AWSSecretKey=???
+<br/>
 Bucket=s3SrcBucket
+<br/>
 
 Make sure to create another s3 bucket with "resize" at the end of the name:
 s3SrcBucketresize
