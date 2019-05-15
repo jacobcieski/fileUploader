@@ -27,3 +27,11 @@ npm start <br/>
 Inside frontend/fileuploader <br/>
 npm install <br/>
 npm start <br/>
+
+<br/>
+Next Steps: <br/>
+Reduce amount of AWS bucket calls: <br/>
+change onerror img tag, to continuously try and use the bucket link as a src and if not get it as the loading image, until the proper image is loaded, if not then it will stay as the loading image?? <br/>
+Potentially create a Lambda function that is triggered during the create of the thumbnail image that sends the link information to the local server to use for the thumbnail instead of having to request the calls from the client side?? <br/>
+Improving thumbnail img lambda function:<br/>
+Look into potentially using Imgix or Cloudinary, or look into another node package that uses less memory to perform the thumbnail compression. <br/>
