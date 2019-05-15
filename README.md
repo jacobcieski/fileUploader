@@ -15,11 +15,11 @@ AWSSecretKey=???
 Bucket=s3SrcBucket
 <br/>
 
-Make sure to create another s3 bucket with "resize" at the end of the name:
-s3SrcBucketresize
+Make sure to create another s3 bucket with "resize" at the end of the name:<br/>
+s3SrcBucketresize <br/>
 This is where the thumbnails are stored.
 
---Backend--
+--Backend-- <br/>
 npm install
 npm start
 
