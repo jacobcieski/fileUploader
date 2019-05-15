@@ -17,12 +17,13 @@ Bucket=s3SrcBucket
 
 Make sure to create another s3 bucket with "resize" at the end of the name:<br/>
 s3SrcBucketresize <br/>
+<br/>
 This is where the thumbnails are stored. <br/>
-
+<br/>
 --Backend-- <br/>
 npm install <br/>
 npm start <br/>
-
+<br/>
 Inside frontend/fileuploader <br/>
 npm install <br/>
 npm start <br/>
