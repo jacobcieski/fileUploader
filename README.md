@@ -5,8 +5,8 @@ Thumbnails are generated via AWS Lambda and stored into another bucket
 
 # Set UP
 
-Inside backend create a file called .env
-In that file include:
+Inside backend create a file called .env <br/>
+In that file include: <br/>
 
 AWSAccessKeyId=??? 
 <br/>
@@ -17,12 +17,12 @@ Bucket=s3SrcBucket
 
 Make sure to create another s3 bucket with "resize" at the end of the name:<br/>
 s3SrcBucketresize <br/>
-This is where the thumbnails are stored.
+This is where the thumbnails are stored. <br/>
 
 --Backend-- <br/>
-npm install
-npm start
+npm install <br/>
+npm start <br/>
 
-Inside frontend/fileuploader
-npm install
-npm start
+Inside frontend/fileuploader <br/>
+npm install <br/>
+npm start <br/>
