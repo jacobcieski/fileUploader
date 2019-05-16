@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axios from '../../../../fileuploader/frontend/fileuploader/node_modules/axios';
+import axios from 'axios';
 
 const loadingImg = require('./img/loading_apple.gif');
 
